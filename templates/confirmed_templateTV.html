@@ -1,0 +1,13 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the <%%SELECT%%> and <%%ENDSELECT%%> formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- add the following to the confirmed_init() hook (in hooks/confirmed.php file) -->
+<!--     $options->ShowTableHeader = 0;     -->
+
+		<td id="confirmed-country-<%%VALUE(id)%%>" class="confirmed-country"><%%SELECT%%><%%VALUE(country)%%><%%ENDSELECT%%></td>
+		<td id="confirmed-state-<%%VALUE(id)%%>" class="confirmed-state"><%%SELECT%%><%%VALUE(state)%%><%%ENDSELECT%%></td>
+		<td id="confirmed-date-<%%VALUE(id)%%>" class="confirmed-date"><%%SELECT%%><%%VALUE(date)%%><%%ENDSELECT%%></td>
+		<td id="confirmed-value-<%%VALUE(id)%%>" class="confirmed-value text-right"><%%SELECT%%><%%VALUE(value)%%><%%ENDSELECT%%></td>
+		<td id="confirmed-calc_recovered-<%%VALUE(id)%%>" class="confirmed-calc_recovered text-right"><%%SELECT%%><%%VALUE(calc_recovered)%%><%%ENDSELECT%%></td>
+		<td id="confirmed-calc_deaths-<%%VALUE(id)%%>" class="confirmed-calc_deaths text-right"><%%SELECT%%><%%VALUE(calc_deaths)%%><%%ENDSELECT%%></td>

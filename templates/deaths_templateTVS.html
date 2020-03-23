@@ -1,0 +1,13 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the  and  formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- add the following to the deaths_init() hook (in hooks/deaths.php file) -->
+<!--     $options->ShowTableHeader = 0;     -->
+
+		<td id="deaths-state-<%%VALUE(id)%%>" class="deaths-state"><%%VALUE(state)%%></td>
+		<td id="deaths-country-<%%VALUE(id)%%>" class="deaths-country"><%%VALUE(country)%%></td>
+		<td id="deaths-lat-<%%VALUE(id)%%>" class="deaths-lat text-right"><%%VALUE(lat)%%></td>
+		<td id="deaths-long-<%%VALUE(id)%%>" class="deaths-long text-right"><%%VALUE(long)%%></td>
+		<td id="deaths-date-<%%VALUE(id)%%>" class="deaths-date"><%%VALUE(date)%%></td>
+		<td id="deaths-value-<%%VALUE(id)%%>" class="deaths-value text-right"><%%VALUE(value)%%></td>

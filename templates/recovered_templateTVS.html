@@ -1,0 +1,13 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the  and  formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- add the following to the recovered_init() hook (in hooks/recovered.php file) -->
+<!--     $options->ShowTableHeader = 0;     -->
+
+		<td id="recovered-state-<%%VALUE(id)%%>" class="recovered-state"><%%VALUE(state)%%></td>
+		<td id="recovered-country-<%%VALUE(id)%%>" class="recovered-country"><%%VALUE(country)%%></td>
+		<td id="recovered-lat-<%%VALUE(id)%%>" class="recovered-lat text-right"><%%VALUE(lat)%%></td>
+		<td id="recovered-long-<%%VALUE(id)%%>" class="recovered-long text-right"><%%VALUE(long)%%></td>
+		<td id="recovered-date-<%%VALUE(id)%%>" class="recovered-date"><%%VALUE(date)%%></td>
+		<td id="recovered-value-<%%VALUE(id)%%>" class="recovered-value text-right"><%%VALUE(value)%%></td>

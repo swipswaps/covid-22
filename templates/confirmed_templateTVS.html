@@ -1,0 +1,13 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the  and  formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- add the following to the confirmed_init() hook (in hooks/confirmed.php file) -->
+<!--     $options->ShowTableHeader = 0;     -->
+
+		<td id="confirmed-country-<%%VALUE(id)%%>" class="confirmed-country"><%%VALUE(country)%%></td>
+		<td id="confirmed-state-<%%VALUE(id)%%>" class="confirmed-state"><%%VALUE(state)%%></td>
+		<td id="confirmed-date-<%%VALUE(id)%%>" class="confirmed-date"><%%VALUE(date)%%></td>
+		<td id="confirmed-value-<%%VALUE(id)%%>" class="confirmed-value text-right"><%%VALUE(value)%%></td>
+		<td id="confirmed-calc_recovered-<%%VALUE(id)%%>" class="confirmed-calc_recovered text-right"><%%VALUE(calc_recovered)%%></td>
+		<td id="confirmed-calc_deaths-<%%VALUE(id)%%>" class="confirmed-calc_deaths text-right"><%%VALUE(calc_deaths)%%></td>
