@@ -23,7 +23,7 @@
 			'title' => 'All stats (Italy, Spain, Egypt)',
 			'description' => '',
 			'groups' => array('Admins'),
-			'grid_column_classes' => 'col-sm-6 col-md-4 col-lg-3',
+			'grid_column_classes' => 'col-sm-12 col-md-6 col-lg-4',
 			'panel_classes' => 'panel-info',
 			'link_classes' => 'btn-info',
 			'table_group' => 'None',
