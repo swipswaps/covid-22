@@ -1,7 +1,7 @@
-/config.php
-/setup.md5
-/plugins/plugins-resources
-/plugins/calendar
-/plugins/index.php
-/plugins/projects/.htaccess
-/plugins/projects/index.html
+/app/config.php
+/app/setup.md5
+/app/plugins/plugins-resources
+/app/plugins/calendar
+/app/plugins/index.php
+/app/plugins/projects/.htaccess
+/app/plugins/projects/index.html
